@@ -1,0 +1,47 @@
+/*Contenido*/
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: medium;
+    align-items: center;
+    margin: 5%;
+}
+section  h4{
+    width: 50%;
+    
+}
+@media screen and (min-width: 768px){
+
+    section{
+        font-size: x-large;
+        text-align: right;
+    }
+    
+    .par{
+      flex-direction: row-reverse;
+      text-align: left;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    section{
+        text-align: left;
+    }
+    
+    .par{
+      flex-direction: row;
+    }
+}
+
+
+section img{
+    max-height: 30%;
+    max-width: 30%;
+}
+section#final{
+    justify-content: center;
+    text-align: center;
+}

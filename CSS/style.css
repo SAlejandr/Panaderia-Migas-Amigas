@@ -1,0 +1,103 @@
+*{
+    font-family:'Frank Ruhl Libre';
+}
+body{
+    margin: 0%;
+}
+
+/*Cabecera*/
+header{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+picture#bandera{
+    
+    float: right;
+    margin: 30px;
+    padding: 0%;
+    /*max-width: 100px;
+    max-height: 100px;*/
+    max-width: 50px;
+    max-height: 50px;
+    
+}
+
+picture#bandera img{
+    /*max-width: 100px;
+    max-height: 100px;*/
+    border: black 1px solid;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+/*Barra de navegacion*/
+nav{
+    background-color: #E77406;
+
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    flex-direction: row;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+nav li{
+    
+    margin: 0%;
+    height: 100%;
+    padding: 2%;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: large;
+    
+}
+
+nav li:hover{
+
+    background-color: bisque;
+    padding-left: 3% ;
+    padding-right: 3%;
+    transition: 1s;
+}
+
+
+/*Pie de pagina*/
+footer {
+    background-color: black;
+    color: cadetblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    /*font-size: small;*/
+}
+
+
+footer fieldset{
+    border-style: none;
+}
+
+footer img{
+    max-height: 10%;
+    max-width: 20%;
+    margin: 5%;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: cadetblue;
+}
