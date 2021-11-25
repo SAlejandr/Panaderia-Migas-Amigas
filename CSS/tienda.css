@@ -1,6 +1,6 @@
 /*Contenido*/
 
-main{
+/*main{
     margin:0%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -18,11 +18,11 @@ main{
     }
     
 }
-
+*/
 
 article{
     max-width: 60%;
-    margin: 10% auto 10% auto;
+    /*margin: 10% auto 10% auto;*/
     min-height: 60%;
     max-height: 70%;
     
